@@ -56,6 +56,7 @@ a {
     display: flex;
     background-color: #1f2937;
     justify-content: center;
+    gap: 250px;
 }
 
 .hero-text {
@@ -63,7 +64,7 @@ a {
     flex-direction: column;
     color: white;
     flex-basis: 450px;
-    margin-right: 5vw;
+    text-align: left;
 }
 
 .hero-text h1 {
@@ -71,7 +72,7 @@ a {
     font-weight: extra-bold;
     color: #F9FAF8;
     margin: 0px;
-    
+
 }
 
 .hero-text p{
@@ -93,8 +94,42 @@ a {
 }
 
 .hero-image img {
-    width: 520px;
+    width: 550px;
     height: 325px;
-    /* padding-right: 100px; */
-    padding-left: 8vw;
+    padding-bottom: 100px;
 }
+
+.content {
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    padding-bottom: 18px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card p {
+    max-width: 200px;
+    padding-left: 20px;
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 5px solid #3882F6;
+    border-radius: 20px;
+    margin: 5px 20px 0px 20px;
+}
+
