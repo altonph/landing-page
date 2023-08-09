@@ -41,7 +41,6 @@ body {
     align-items: center;
     background-color: #1f2937;
     gap: 10vw;
-    /* padding-bottom: 20px; */
     padding: 64px;
 
 }
@@ -61,6 +60,7 @@ body {
     color: #E5E7EB;
     padding-bottom: 20px;
     padding-top: 20px;
+    width: 410px;
 }
 
 .hero-text button {
@@ -76,16 +76,15 @@ body {
 
 .hero-image img {
     width: 500px;
-    /* padding-right: 200px; */
 }
 
-.content {
+.third-section {
     align-items: center;
     text-align: center;
     padding: 20px 20px;
 
 }
-.content h2 {
+.third-section h2 {
     font-size: 36px;
     font-weight: bolder;
     color: #1f2937;
@@ -99,7 +98,6 @@ body {
 }
 
 .card p {
-    /* width: 200px; */
     font-size: 18px;
 
 }
@@ -113,7 +111,7 @@ body {
     margin: 5px 20px 0px 20px;
 }
 
-.quote {
+.fourth-section {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -123,19 +121,19 @@ body {
     padding: 60px;
 }
 
-.quote p {
+.fourth-section p {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
     width: 820px;
 }
 
-.quote strong {
+.fourth-section strong {
     padding-left: 30vw;
     font-size: 20px;
 }
 
-.sign-up {
+.fifth-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +147,6 @@ body {
     background-color: #3882F6;
     margin: 30px 250px;
     border-radius: 8px;
-    /* height: 100%; */
     height: 60px;
     padding: 30px 80px;
     margin: 80px 80px;
@@ -160,7 +157,7 @@ body {
     color:#E5E7EB;
 }
 
-.sign-up button {
+.fifth-section button {
     margin-left: 30px;
     background-color: transparent;
     color: white;
@@ -173,7 +170,7 @@ body {
     font-weight: bold;
 }
 
-.footer {
+.sixth-section {
     display: flex;
     justify-content: center;
     align-items: center;
